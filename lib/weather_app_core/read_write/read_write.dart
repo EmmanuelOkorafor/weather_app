@@ -166,10 +166,15 @@ void deleteCity(String fileName) async {
       final file = File('{$directory.path}/weather_app_cites.json');
       final contents = await file.readAsString();
 
+      File('{$directory.path}/weather_app_local_city_keys.txt').readAsLines().then((value) => value.removeWhere((element) => element == fileName));
+
+
       final json = jsonDecode(contents);
       tempData.addAll(json);
       tempData[fileName].clear();
       tempData[fileName] = "";
+
+      
 
       final stringifyJson = jsonEncode(tempData);
       file.writeAsString(stringifyJson);

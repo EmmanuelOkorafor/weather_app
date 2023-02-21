@@ -78,7 +78,7 @@ class _WeatherAppState extends State<WeatherApp> with SingleTickerProviderStateM
           body: TabBar(
             controller: tabController,
             isScrollable: true,
-            tabs: cities!.map((e) => TabsWidget(e![keys![selectedIndex]]['data']['longitude'], e['data']['latitude'])).toList(),
+            tabs: cities!.map((e) => TabsWidget( cities !=null ? 34.0 : e![keys![selectedIndex]]['data']['longitude'], cities !=null ? 34.0 : e!['data']['latitude'])).toList(),
           ),
         )
       ),
