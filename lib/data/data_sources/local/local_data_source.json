@@ -1,0 +1,86 @@
+{
+    "lagos": {    
+        "cord": {
+            "lon": 98,
+            "lat": 23
+        },
+    
+        "weather": [
+            {
+                "id": 223,
+                "main": "",
+                "description": "",
+                "icon": ""
+            }
+        ],
+    
+        "base": "",
+    
+        "main": {
+            "temp": 33,
+            "feels_like": 33,
+            "temp_min": 33,
+            "pressure": 33,
+            "humidity": 33,
+            "sea_level": 33,
+            "grnd_level": 33
+        },
+    
+        "visibility": 33,
+    
+        "wind": {
+            "speed": 33,
+            "deg": 33,
+            "gust": 33
+        },
+    
+        "rain": {
+            "1h": 0.0
+        },
+    
+        "clouds": {
+            "all": 0.0
+        },
+    
+        "dt": 98,
+    
+        "sys": {
+            "type": 2,
+            "id": 237,
+            "country": "IT",
+            "sunrise": 65,
+            "sunset": 4
+        },
+    
+        "timezone": 65,
+        "id": 423,
+        "name": "",
+        "cod": 433
+    },
+
+    "Kano": {},
+    "Ibadan": {},
+    "Onitsha": {},
+    "Owerri": {},
+    "Abuja": {},
+    "Maiduguri": {},
+    "BeninCity": {},
+    "Ikare": {},
+    "Ogbomoso": {},
+    "Port Harcourt": {},
+    "Abeokuta": {},
+    "Jos": {},
+    "Ilorin": {},
+    "Warri": {}
+
+
+
+
+
+
+
+
+
+
+
+}
