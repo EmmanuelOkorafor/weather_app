@@ -29,6 +29,3 @@ This project was written using the Flutter framework which uses the [Dart](https
 ## Getting Started
 
 Navigate to the directory and debug or run `flutter run` to see the on an emulator.
-
-## Contact Info
-[oyomcarter@gmail.com](mailto:oyomcarter@gmail.com?subject = Feedback&body = Hello)
